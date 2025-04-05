@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@theme {
+
+  /*todo Need to set colors and themes up */
+  /* Backgrounds */
+
+  /* texts */
+  --color-primary: #123469;
+  
+  /* borders */
+
+}
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  /* color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424; */
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+}
+
+body {
+  margin: 0 !important;
+}
+
+/* Common Form Styles */
+form label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-size: 0.95rem;
+  color: #414651;
+}
+
+/* todo - add dark styles for the form as well */
+
+
+form input {
+  border: 1px solid #D5D7DA;
+  border-radius: 0.55rem;
+  padding: 0.45rem 0.60rem;
+  width: 100%;
+}
