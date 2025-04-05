@@ -1,6 +1,8 @@
-import { BrowserRouter, Routes, Route, Navigate } from "react-router";
+import { BrowserRouter, Routes, Route, Navigate, } from "react-router";
 import SignUpPage from "./modules/auth/screens/SignUpPage";
 import LoginPage from "./modules/auth/screens/LoginPage";
+import _404Page from "./_404Page";
+
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         {/* Auth routes */}
         <Route path="/login" element={<LoginPage />} />
         <Route path="/signup" element={<SignUpPage />} />
+        <Route path="*" element={<_404Page />} />
       </Routes>
+
     </BrowserRouter>
   );
 }
